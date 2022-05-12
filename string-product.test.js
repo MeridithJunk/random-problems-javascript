@@ -1,7 +1,7 @@
-const product = require("./string-product");
+const sum = require("./string-product");
 
-describe('product tests', () => {
+describe('tests', () => {
    test('first test', () => {
-        expect(product("2", "1")).toBe("2");
+        expect(sum(2,1)).toBe(3);
     });
 });
